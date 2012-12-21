@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MinecraftCompanionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MinecraftCompanionAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		35F3879B124C340600911499 /* bg_sky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38795124C340600911499 /* bg_sky@2x.png */; };
+		35F3879C124C340600911499 /* bg_sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38796124C340600911499 /* bg_sky.png */; };
+		35F3879D124C340600911499 /* bg_ground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38797124C340600911499 /* bg_ground@2x.png */; };
+		35F3879E124C340600911499 /* bg_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38798124C340600911499 /* bg_ground.png */; };
+		35F3879F124C340600911499 /* bg_clouds@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38799124C340600911499 /* bg_clouds@2x.png */; };
+		35F387A0124C340600911499 /* bg_clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F3879A124C340600911499 /* bg_clouds.png */; };
+		35F387A7124C34D000911499 /* CanaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F387A6124C34D000911499 /* CanaryViewController.m */; };
+		35F387AA124C34F600911499 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F387A9124C34F600911499 /* LandscapeViewController.m */; };
+		35F387FD124C3C2A00911499 /* sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F387F9124C3C2A00911499 /* sun@2x.png */; };
+		35F387FE124C3C2A00911499 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F387FA124C3C2A00911499 /* sun.png */; };
+		35F387FF124C3C2A00911499 /* moon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F387FB124C3C2A00911499 /* moon@2x.png */; };
+		35F38800124C3C2A00911499 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F387FC124C3C2A00911499 /* moon.png */; };
+		35F3880A124C3D6E00911499 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F38809124C3D6E00911499 /* QuartzCore.framework */; };
+		35F38831124C40CE00911499 /* UIDarkenedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F38830124C40CE00911499 /* UIDarkenedImageView.m */; };
+		35F388B5124C497500911499 /* bg_groundblack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F388B1124C497500911499 /* bg_groundblack@2x.png */; };
+		35F388B6124C497500911499 /* bg_groundblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F388B2124C497500911499 /* bg_groundblack.png */; };
+		35F388B7124C497500911499 /* bg_cloudsblack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F388B3124C497500911499 /* bg_cloudsblack@2x.png */; };
+		35F388B8124C497500911499 /* bg_cloudsblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F388B4124C497500911499 /* bg_cloudsblack.png */; };
+		35F388E0124C4DC900911499 /* bg_stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F388DF124C4DC900911499 /* bg_stars.png */; };
+		35F38B22124D360B00911499 /* font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35F38B21124D360B00911499 /* font.ttf */; };
+		35F38B25124D366100911499 /* UICustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F38B23124D366100911499 /* UICustomLabel.m */; };
+		35F38B2A124D367300911499 /* FontHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F38B27124D367300911499 /* FontHelper.m */; };
+		35F38B2B124D367300911499 /* PersistentDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F38B29124D367300911499 /* PersistentDictionary.m */; };
+		35F38C06124D89F700911499 /* TwoFingerDragCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F38C05124D89F700911499 /* TwoFingerDragCatcher.m */; };
+		35F38C55124D9B1400911499 /* qb_midnight.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38C4D124D9B1400911499 /* qb_midnight.png */; };
+		35F38C56124D9B1400911499 /* qb_midnight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38C4E124D9B1400911499 /* qb_midnight@2x.png */; };
+		35F38C57124D9B1400911499 /* qb_moonrise.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38C4F124D9B1400911499 /* qb_moonrise.png */; };
+		35F38C58124D9B1400911499 /* qb_moonrise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38C50124D9B1400911499 /* qb_moonrise@2x.png */; };
+		35F38C59124D9B1400911499 /* qb_noon.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38C51124D9B1400911499 /* qb_noon.png */; };
+		35F38C5A124D9B1400911499 /* qb_noon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38C52124D9B1400911499 /* qb_noon@2x.png */; };
+		35F38C5B124D9B1400911499 /* qb_sunrise.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38C53124D9B1400911499 /* qb_sunrise.png */; };
+		35F38C5C124D9B1400911499 /* qb_sunrise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38C54124D9B1400911499 /* qb_sunrise@2x.png */; };
+		35F38CE2124DB0D800911499 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38CE0124DB0D800911499 /* clock.png */; };
+		35F38CE3124DB0D800911499 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38CE1124DB0D800911499 /* clock@2x.png */; };
+		35F38D39124DB7D700911499 /* swipe_msg.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38D38124DB7D700911499 /* swipe_msg.png */; };
+		35F38D49124DB8C300911499 /* swipe_msg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38D48124DB8C300911499 /* swipe_msg@2x.png */; };
+		35F38D51124DC1BF00911499 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38D4E124DC1BF00911499 /* Default.png */; };
+		35F38D52124DC1BF00911499 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38D4F124DC1BF00911499 /* icon.png */; };
+		35F38D53124DC1BF00911499 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F38D50124DC1BF00911499 /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MinecraftCompanionAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinecraftCompanionAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MinecraftCompanionAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinecraftCompanionAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MinecraftCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinecraftCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MinecraftCompanion_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinecraftCompanion_Prefix.pch; sourceTree = "<group>"; };
+		35F38795124C340600911499 /* bg_sky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_sky@2x.png"; path = "Images/bg_sky@2x.png"; sourceTree = "<group>"; };
+		35F38796124C340600911499 /* bg_sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_sky.png; path = Images/bg_sky.png; sourceTree = "<group>"; };
+		35F38797124C340600911499 /* bg_ground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_ground@2x.png"; path = "Images/bg_ground@2x.png"; sourceTree = "<group>"; };
+		35F38798124C340600911499 /* bg_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_ground.png; path = Images/bg_ground.png; sourceTree = "<group>"; };
+		35F38799124C340600911499 /* bg_clouds@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_clouds@2x.png"; path = "Images/bg_clouds@2x.png"; sourceTree = "<group>"; };
+		35F3879A124C340600911499 /* bg_clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_clouds.png; path = Images/bg_clouds.png; sourceTree = "<group>"; };
+		35F387A5124C34D000911499 /* CanaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanaryViewController.h; sourceTree = "<group>"; };
+		35F387A6124C34D000911499 /* CanaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanaryViewController.m; sourceTree = "<group>"; };
+		35F387A8124C34F600911499 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		35F387A9124C34F600911499 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		35F387F9124C3C2A00911499 /* sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sun@2x.png"; path = "Images/sun@2x.png"; sourceTree = "<group>"; };
+		35F387FA124C3C2A00911499 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = Images/sun.png; sourceTree = "<group>"; };
+		35F387FB124C3C2A00911499 /* moon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "moon@2x.png"; path = "Images/moon@2x.png"; sourceTree = "<group>"; };
+		35F387FC124C3C2A00911499 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = Images/moon.png; sourceTree = "<group>"; };
+		35F38809124C3D6E00911499 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		35F3882F124C40CE00911499 /* UIDarkenedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDarkenedImageView.h; sourceTree = "<group>"; };
+		35F38830124C40CE00911499 /* UIDarkenedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDarkenedImageView.m; sourceTree = "<group>"; };
+		35F388B1124C497500911499 /* bg_groundblack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_groundblack@2x.png"; path = "Images/bg_groundblack@2x.png"; sourceTree = "<group>"; };
+		35F388B2124C497500911499 /* bg_groundblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_groundblack.png; path = Images/bg_groundblack.png; sourceTree = "<group>"; };
+		35F388B3124C497500911499 /* bg_cloudsblack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_cloudsblack@2x.png"; path = "Images/bg_cloudsblack@2x.png"; sourceTree = "<group>"; };
+		35F388B4124C497500911499 /* bg_cloudsblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_cloudsblack.png; path = Images/bg_cloudsblack.png; sourceTree = "<group>"; };
+		35F388DF124C4DC900911499 /* bg_stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_stars.png; path = Images/bg_stars.png; sourceTree = "<group>"; };
+		35F38ABE124D2A4500911499 /* DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypes.h; sourceTree = "<group>"; };
+		35F38B21124D360B00911499 /* font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = font.ttf; path = Font/font.ttf; sourceTree = "<group>"; };
+		35F38B23124D366100911499 /* UICustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomLabel.m; sourceTree = "<group>"; };
+		35F38B24124D366100911499 /* UICustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomLabel.h; sourceTree = "<group>"; };
+		35F38B26124D367300911499 /* FontHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontHelper.h; sourceTree = "<group>"; };
+		35F38B27124D367300911499 /* FontHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontHelper.m; sourceTree = "<group>"; };
+		35F38B28124D367300911499 /* PersistentDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistentDictionary.h; sourceTree = "<group>"; };
+		35F38B29124D367300911499 /* PersistentDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistentDictionary.m; sourceTree = "<group>"; };
+		35F38C04124D89F700911499 /* TwoFingerDragCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoFingerDragCatcher.h; sourceTree = "<group>"; };
+		35F38C05124D89F700911499 /* TwoFingerDragCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoFingerDragCatcher.m; sourceTree = "<group>"; };
+		35F38C4D124D9B1400911499 /* qb_midnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qb_midnight.png; path = Images/qb_midnight.png; sourceTree = "<group>"; };
+		35F38C4E124D9B1400911499 /* qb_midnight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qb_midnight@2x.png"; path = "Images/qb_midnight@2x.png"; sourceTree = "<group>"; };
+		35F38C4F124D9B1400911499 /* qb_moonrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qb_moonrise.png; path = Images/qb_moonrise.png; sourceTree = "<group>"; };
+		35F38C50124D9B1400911499 /* qb_moonrise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qb_moonrise@2x.png"; path = "Images/qb_moonrise@2x.png"; sourceTree = "<group>"; };
+		35F38C51124D9B1400911499 /* qb_noon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qb_noon.png; path = Images/qb_noon.png; sourceTree = "<group>"; };
+		35F38C52124D9B1400911499 /* qb_noon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qb_noon@2x.png"; path = "Images/qb_noon@2x.png"; sourceTree = "<group>"; };
+		35F38C53124D9B1400911499 /* qb_sunrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qb_sunrise.png; path = Images/qb_sunrise.png; sourceTree = "<group>"; };
+		35F38C54124D9B1400911499 /* qb_sunrise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qb_sunrise@2x.png"; path = "Images/qb_sunrise@2x.png"; sourceTree = "<group>"; };
+		35F38CE0124DB0D800911499 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = Images/clock.png; sourceTree = "<group>"; };
+		35F38CE1124DB0D800911499 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock@2x.png"; path = "Images/clock@2x.png"; sourceTree = "<group>"; };
+		35F38D38124DB7D700911499 /* swipe_msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swipe_msg.png; path = Images/swipe_msg.png; sourceTree = "<group>"; };
+		35F38D48124DB8C300911499 /* swipe_msg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "swipe_msg@2x.png"; path = "Images/swipe_msg@2x.png"; sourceTree = "<group>"; };
+		35F38D4E124DC1BF00911499 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = System/Default.png; sourceTree = "<group>"; };
+		35F38D4F124DC1BF00911499 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = System/icon.png; sourceTree = "<group>"; };
+		35F38D50124DC1BF00911499 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "System/icon@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MinecraftCompanion-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MinecraftCompanion-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				35F3880A124C3D6E00911499 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35F387A4124C344C00911499 /* Helpers */,
+				35F387A3124C344800911499 /* Models */,
+				35F387A2124C344400911499 /* Views */,
+				35F387A1124C343800911499 /* Controllers */,
+				1D3623240D0F684500981E51 /* MinecraftCompanionAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MinecraftCompanionAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MinecraftCompanion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MinecraftCompanion_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35F38B21124D360B00911499 /* font.ttf */,
+				35F38794124C33FA00911499 /* Images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MinecraftCompanion-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				35F38809124C3D6E00911499 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35F38794124C33FA00911499 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				35F38D4E124DC1BF00911499 /* Default.png */,
+				35F38D4F124DC1BF00911499 /* icon.png */,
+				35F38D50124DC1BF00911499 /* icon@2x.png */,
+				35F38D48124DB8C300911499 /* swipe_msg@2x.png */,
+				35F38D38124DB7D700911499 /* swipe_msg.png */,
+				35F38C4D124D9B1400911499 /* qb_midnight.png */,
+				35F38C4E124D9B1400911499 /* qb_midnight@2x.png */,
+				35F38C4F124D9B1400911499 /* qb_moonrise.png */,
+				35F38C50124D9B1400911499 /* qb_moonrise@2x.png */,
+				35F38C51124D9B1400911499 /* qb_noon.png */,
+				35F38C52124D9B1400911499 /* qb_noon@2x.png */,
+				35F38C53124D9B1400911499 /* qb_sunrise.png */,
+				35F38C54124D9B1400911499 /* qb_sunrise@2x.png */,
+				35F38CE0124DB0D800911499 /* clock.png */,
+				35F38CE1124DB0D800911499 /* clock@2x.png */,
+				35F387F9124C3C2A00911499 /* sun@2x.png */,
+				35F387FA124C3C2A00911499 /* sun.png */,
+				35F387FB124C3C2A00911499 /* moon@2x.png */,
+				35F387FC124C3C2A00911499 /* moon.png */,
+				35F388DF124C4DC900911499 /* bg_stars.png */,
+				35F38795124C340600911499 /* bg_sky@2x.png */,
+				35F38796124C340600911499 /* bg_sky.png */,
+				35F38797124C340600911499 /* bg_ground@2x.png */,
+				35F38798124C340600911499 /* bg_ground.png */,
+				35F38799124C340600911499 /* bg_clouds@2x.png */,
+				35F3879A124C340600911499 /* bg_clouds.png */,
+				35F388B1124C497500911499 /* bg_groundblack@2x.png */,
+				35F388B2124C497500911499 /* bg_groundblack.png */,
+				35F388B3124C497500911499 /* bg_cloudsblack@2x.png */,
+				35F388B4124C497500911499 /* bg_cloudsblack.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		35F387A1124C343800911499 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35F387A5124C34D000911499 /* CanaryViewController.h */,
+				35F387A6124C34D000911499 /* CanaryViewController.m */,
+				35F387A8124C34F600911499 /* LandscapeViewController.h */,
+				35F387A9124C34F600911499 /* LandscapeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		35F387A2124C344400911499 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35F38B24124D366100911499 /* UICustomLabel.h */,
+				35F38B23124D366100911499 /* UICustomLabel.m */,
+				35F3882F124C40CE00911499 /* UIDarkenedImageView.h */,
+				35F38830124C40CE00911499 /* UIDarkenedImageView.m */,
+				35F38C04124D89F700911499 /* TwoFingerDragCatcher.h */,
+				35F38C05124D89F700911499 /* TwoFingerDragCatcher.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		35F387A3124C344800911499 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		35F387A4124C344C00911499 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				35F38B26124D367300911499 /* FontHelper.h */,
+				35F38B27124D367300911499 /* FontHelper.m */,
+				35F38B28124D367300911499 /* PersistentDictionary.h */,
+				35F38B29124D367300911499 /* PersistentDictionary.m */,
+				35F38ABE124D2A4500911499 /* DataTypes.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MinecraftCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MinecraftCompanion" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinecraftCompanion;
+			productName = MinecraftCompanion;
+			productReference = 1D6058910D05DD3D006BFB54 /* MinecraftCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MinecraftCompanion" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MinecraftCompanion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				35F3879B124C340600911499 /* bg_sky@2x.png in Resources */,
+				35F3879C124C340600911499 /* bg_sky.png in Resources */,
+				35F3879D124C340600911499 /* bg_ground@2x.png in Resources */,
+				35F3879E124C340600911499 /* bg_ground.png in Resources */,
+				35F3879F124C340600911499 /* bg_clouds@2x.png in Resources */,
+				35F387A0124C340600911499 /* bg_clouds.png in Resources */,
+				35F387FD124C3C2A00911499 /* sun@2x.png in Resources */,
+				35F387FE124C3C2A00911499 /* sun.png in Resources */,
+				35F387FF124C3C2A00911499 /* moon@2x.png in Resources */,
+				35F38800124C3C2A00911499 /* moon.png in Resources */,
+				35F388B5124C497500911499 /* bg_groundblack@2x.png in Resources */,
+				35F388B6124C497500911499 /* bg_groundblack.png in Resources */,
+				35F388B7124C497500911499 /* bg_cloudsblack@2x.png in Resources */,
+				35F388B8124C497500911499 /* bg_cloudsblack.png in Resources */,
+				35F388E0124C4DC900911499 /* bg_stars.png in Resources */,
+				35F38B22124D360B00911499 /* font.ttf in Resources */,
+				35F38C55124D9B1400911499 /* qb_midnight.png in Resources */,
+				35F38C56124D9B1400911499 /* qb_midnight@2x.png in Resources */,
+				35F38C57124D9B1400911499 /* qb_moonrise.png in Resources */,
+				35F38C58124D9B1400911499 /* qb_moonrise@2x.png in Resources */,
+				35F38C59124D9B1400911499 /* qb_noon.png in Resources */,
+				35F38C5A124D9B1400911499 /* qb_noon@2x.png in Resources */,
+				35F38C5B124D9B1400911499 /* qb_sunrise.png in Resources */,
+				35F38C5C124D9B1400911499 /* qb_sunrise@2x.png in Resources */,
+				35F38CE2124DB0D800911499 /* clock.png in Resources */,
+				35F38CE3124DB0D800911499 /* clock@2x.png in Resources */,
+				35F38D39124DB7D700911499 /* swipe_msg.png in Resources */,
+				35F38D49124DB8C300911499 /* swipe_msg@2x.png in Resources */,
+				35F38D51124DC1BF00911499 /* Default.png in Resources */,
+				35F38D52124DC1BF00911499 /* icon.png in Resources */,
+				35F38D53124DC1BF00911499 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MinecraftCompanionAppDelegate.m in Sources */,
+				35F387A7124C34D000911499 /* CanaryViewController.m in Sources */,
+				35F387AA124C34F600911499 /* LandscapeViewController.m in Sources */,
+				35F38831124C40CE00911499 /* UIDarkenedImageView.m in Sources */,
+				35F38B25124D366100911499 /* UICustomLabel.m in Sources */,
+				35F38B2A124D367300911499 /* FontHelper.m in Sources */,
+				35F38B2B124D367300911499 /* PersistentDictionary.m in Sources */,
+				35F38C06124D89F700911499 /* TwoFingerDragCatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MinecraftCompanion_Prefix.pch;
+				INFOPLIST_FILE = "MinecraftCompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = MinecraftCompanion;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MinecraftCompanion_Prefix.pch;
+				INFOPLIST_FILE = "MinecraftCompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = MinecraftCompanion;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35F38D75124E477D00911499 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		35F38D76124E477D00911499 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MinecraftCompanion_Prefix.pch;
+				INFOPLIST_FILE = "MinecraftCompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = MinecraftCompanion;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		35F38D77124E478000911499 /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Fieldman";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DF21984C-F8E5-46D2-95FA-5D86FADF9DAB";
+				SDKROOT = iphoneos;
+			};
+			name = "App Store";
+		};
+		35F38D78124E478000911499 /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MinecraftCompanion_Prefix.pch;
+				INFOPLIST_FILE = "MinecraftCompanion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = MinecraftCompanion;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Fieldman (PTYZN7HB9X)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "80225FFD-592A-4DBE-A97B-BB6606822085";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MinecraftCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				35F38D76124E477D00911499 /* Ad Hoc */,
+				35F38D78124E478000911499 /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MinecraftCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				35F38D75124E477D00911499 /* Ad Hoc */,
+				35F38D77124E478000911499 /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

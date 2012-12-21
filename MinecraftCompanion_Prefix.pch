@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'MinecraftCompanion' target in the 'MinecraftCompanion' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+	#import <QuartzCore/QuartzCore.h>
+
+	#import "DataTypes.h"
+	#import "PersistentDictionary.h"
+#endif
